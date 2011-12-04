@@ -1622,6 +1622,9 @@ var TAFFY;
     }
 })()
 
+if( typeof(exports) === 'object')) {
+	exports.taffy = TAFFY;
+}
 
 /*
          http://www.JSON.org/json2.js
